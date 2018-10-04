@@ -11,7 +11,7 @@ public class LinearSearch {
 			Scanner sc=new Scanner(System.in);
 			int i;
 			boolean flag=false;
-			System.out.println("enter size of array");
+			System.out.println("Enter size of Array");
 			int a=sc.nextInt();
 			int num[]=new int[a];
 			
