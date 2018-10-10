@@ -4,13 +4,19 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class MyAssertTrueTest {
+public class LinearSearchTestCases {
 
 	@Test
 	public void test1() {
 		LinearSearch ls= new LinearSearch();
-		assertTrue(ls.searchEleFound(10));
+		assertTrue(ls.searchEleFound());
 	}
+	@Test
+	public void sizeOfArrayPositiveOrNotTest() {
+		
+         if(ls.a>0)
+		assertTrue(true);
+		}
 	
 	
 
