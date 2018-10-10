@@ -6,10 +6,10 @@ public class LinearSearch {
 
 	 
 
-		boolean searchEleFound(int search) {
+		boolean searchEleFound() {
 		
 			Scanner sc=new Scanner(System.in);
-			int i;
+			int i,search;
 			boolean flag=false;
 			System.out.println("Enter size of Array");
 			int a=sc.nextInt();
@@ -19,9 +19,10 @@ public class LinearSearch {
 			{
 				System.out.println("enter element");
 				int b=sc.nextInt();	
-			    num[i]=	b;
+			    num[i]=b;
 			}
-			
+			System.out.println("enter search element");
+			search=sc.nextInt();
 			for(i=0;i<num.length;i++)
 			{
 				if(num[i]==search)
